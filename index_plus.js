@@ -4,7 +4,7 @@
 const ACCOUNT = { //账号相关，安全性更高
 
   "user" : "admin", //博客后台用户名
-  "password" : "cfblog-plus", //博客后台密码
+  "password" : "111111111", //博客后台密码
   "third_token" : "cfblog", //开放token，当前仅允许访问/admin/search.xml，/admin/sitemap.xml时可用，在cfblog_token的头信息中传递
   "cacheZoneId":"935xxxxxxxxxxxx",//区域 ID
   "cacheToken":"AQxxxxxxxx",//API token
