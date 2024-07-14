@@ -4,10 +4,10 @@
 const ACCOUNT = { //账号相关，安全性更高
 
   "user" : "admin", //博客后台用户名
-  "password" : "111111111", //博客后台密码
+  "password" : "ooo2529028963", //博客后台密码
   "third_token" : "cfblog", //开放token，当前仅允许访问/admin/search.xml，/admin/sitemap.xml时可用，在cfblog_token的头信息中传递
-  "cacheZoneId":"935xxxxxxxxxxxx",//区域 ID
-  "cacheToken":"AQxxxxxxxx",//API token
+  "cacheZoneId":"06823e67793670aa7741af1ccb7b7113",//区域 ID
+  "cacheToken":"QVcWB9h2_LlFqIs_pzFJmXu_How8mjbDrstusikC",//API token
 
   "kv_var": this['CFBLOG'],//workers绑定kv时用的变量名
 }
@@ -15,11 +15,11 @@ const ACCOUNT = { //账号相关，安全性更高
 const OPT = { //网站配置
 
   /*--前台参数--*/
-  "siteDomain" : "域名",// 域名(不带https 也不带/)
-  "siteName" : "CFBLOG-Plus",//博客名称
-  "siteDescription":"CFBLOG-Plus" ,//博客描述
+  "siteDomain" : "huali.us.kg",// 域名(不带https 也不带/)
+  "siteName" : "梨花's 小屋",//博客名称
+  "siteDescription":"一个建立在21世纪的小站，存活于互联网的边缘" ,//博客描述
   "keyWords":"cloudflare,KV,workers,blog",//关键字
-  "logo":"https://cdn.jsdelivr.net/gh/Arronlong/cfblog-plus@master/themes/JustNews/files/logo2.png",//JustNews主题的logo
+  "logo":"https://telegraph-image-35q.pages.dev/file/b089c0556d5503c09e96c.png",//JustNews主题的logo
 
   "theme_github_path":"https://cdn.jsdelivr.net/gh/Arronlong/cfblog-plus@master/themes/",//主题路径
   "themeURL" : "https://raw.githubusercontent.com/Arronlong/cfblog-plus/master/themes/JustNews/", // 模板地址,以 "/"" 结尾
